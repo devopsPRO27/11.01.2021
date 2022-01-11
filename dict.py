@@ -34,6 +34,14 @@ def tryAddValue(d,k,v):
        else:
               return False
 
+def printDictionary(d):
+       '''
+       this func will print the dictionary in new format
+       :param d: dictionary
+       :return: None
+       '''
+       for k,v in d.items():
+              print(f'the value {v} stored by the {k} key')
 
 '''if doesKeyExist(myDIct,3)==False:
        myDict[3]='anat'''
@@ -43,6 +51,12 @@ else:
        print('this key is taken')
 
 print(myDict)
+printDictionary(myDict)
+print(myDict.items())
+print(myDict.values())
+print(myDict.keys())
+
+
 
 
 
