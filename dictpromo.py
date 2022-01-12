@@ -13,7 +13,6 @@
 >>> a[2] = 'dana'
 >>> a
 {1: 'itay', 2: 'dana'}
->>> del a[2]
 >>> a
 {1: 'itay'}
 >>> a[3] = 'ranny'
